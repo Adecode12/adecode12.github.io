@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body p,ol,ul,h1{
+    margin-left:5%;
+}
+
+nav{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5%;
+    border-bottom: 2px solid gray;
+    z-index: 1;
+}
+
+nav ul{
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 15px;
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+footer{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    z-index: 1;
+    bottom: 0;
+    border-top:2px solid gray;
+}
+
+
+
+
+.active{
+    border-bottom: 4px solid black;
+}
+
+
+div#content{
+    margin-bottom: 5%;
+}
